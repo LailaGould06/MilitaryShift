@@ -17,6 +17,9 @@
 		BD5394CC2A685E38009C2755 /* Navy.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5394CB2A685E38009C2755 /* Navy.swift */; };
 		BD5394CE2A686028009C2755 /* CoastGuard.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5394CD2A686028009C2755 /* CoastGuard.swift */; };
 		BD5394D02A68664A009C2755 /* UnknownJobs.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5394CF2A68664A009C2755 /* UnknownJobs.swift */; };
+		BD6947822A68686A00E8704C /* WhatNext.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6947812A68686A00E8704C /* WhatNext.swift */; };
+		BD6947842A6868AE00E8704C /* skillsToUse.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6947832A6868AE00E8704C /* skillsToUse.swift */; };
+		BD6947862A68690A00E8704C /* collegeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6947852A68690A00E8704C /* collegeView.swift */; };
 		BDAA78DF2A65D0320028236E /* MilitaryShiftApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAA78DE2A65D0320028236E /* MilitaryShiftApp.swift */; };
 		BDAA78E12A65D0320028236E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAA78E02A65D0320028236E /* ContentView.swift */; };
 		BDAA78E32A65D0340028236E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDAA78E22A65D0340028236E /* Assets.xcassets */; };
@@ -35,6 +38,9 @@
 		BD5394CB2A685E38009C2755 /* Navy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navy.swift; sourceTree = "<group>"; };
 		BD5394CD2A686028009C2755 /* CoastGuard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoastGuard.swift; sourceTree = "<group>"; };
 		BD5394CF2A68664A009C2755 /* UnknownJobs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnknownJobs.swift; sourceTree = "<group>"; };
+		BD6947812A68686A00E8704C /* WhatNext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatNext.swift; sourceTree = "<group>"; };
+		BD6947832A6868AE00E8704C /* skillsToUse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = skillsToUse.swift; sourceTree = "<group>"; };
+		BD6947852A68690A00E8704C /* collegeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = collegeView.swift; sourceTree = "<group>"; };
 		BDAA78DB2A65D0320028236E /* MilitaryShift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MilitaryShift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDAA78DE2A65D0320028236E /* MilitaryShiftApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MilitaryShiftApp.swift; sourceTree = "<group>"; };
 		BDAA78E02A65D0320028236E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -85,6 +91,9 @@
 			children = (
 				BDAA78DE2A65D0320028236E /* MilitaryShiftApp.swift */,
 				BDAA78E02A65D0320028236E /* ContentView.swift */,
+				BD6947812A68686A00E8704C /* WhatNext.swift */,
+				BD6947852A68690A00E8704C /* collegeView.swift */,
+				BD6947832A6868AE00E8704C /* skillsToUse.swift */,
 				BD5394C12A684CAA009C2755 /* BranchesNationalGaurd.swift */,
 				BDAA78E22A65D0340028236E /* Assets.xcassets */,
 				BDAA78E42A65D0340028236E /* Preview Content */,
@@ -170,9 +179,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD6947822A68686A00E8704C /* WhatNext.swift in Sources */,
 				BD5394CE2A686028009C2755 /* CoastGuard.swift in Sources */,
+				BD6947862A68690A00E8704C /* collegeView.swift in Sources */,
 				BDBAD3C42A65DE960029BD57 /* SecondView.swift in Sources */,
 				BDAA78E12A65D0320028236E /* ContentView.swift in Sources */,
+				BD6947842A6868AE00E8704C /* skillsToUse.swift in Sources */,
 				BD5394C02A684AF6009C2755 /* BranchesArmy.swift in Sources */,
 				BD5394C82A685BAF009C2755 /* AirForce.swift in Sources */,
 				BD5394D02A68664A009C2755 /* UnknownJobs.swift in Sources */,

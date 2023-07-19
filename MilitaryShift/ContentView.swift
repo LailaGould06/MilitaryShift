@@ -15,25 +15,36 @@ struct ContentView: View {
             
             ZStack{
                 Image("Sage1")
-                VStack(alignment:.center,spacing:10.0) {
+                VStack(alignment:.center,spacing:50.0) {
                     Image("MS2")
                         .aspectRatio(contentMode: .fit).cornerRadius(19)
                     
-                    TextField("Name Here...", text: $name) .multilineTextAlignment(.center).font(.title).border(Color.black,width:1)
-                    
-                    NavigationLink(destination:SecondView(name: self.$name)) {
-                        Text("Enter").foregroundColor(Color.white).padding()
+                    HStack {
+                        Text("Name:")
+                            .font(.title2)
+                            .fontWeight(.bold)
+                            .foregroundColor(Color.black)
+                        TextField("Enter name here...", text: $name).multilineTextAlignment(.center).font(.title).border(Color.gray, width: 1)
                         
-                    }.background(Rectangle().foregroundColor(.green)).cornerRadius(13)
+                    }.padding(.horizontal, 85)
+
                     
-                } .padding()
             
                     
                     
                     
+                    NavigationLink(destination:SecondView(name: self.$name)) {
+                        Text("Enter")
+                            .font(.title2)
+                            .fontWeight(.bold)
+                            .foregroundColor(Color.white).padding(.horizontal, 50)
+                            .padding(.vertical, 15)
+                        
+                    }.background(Rectangle().foregroundColor(Color("greenB")).cornerRadius(13))
                     
-                    
-                    
+                }.padding()
+            
+            
                     
                 }
                 

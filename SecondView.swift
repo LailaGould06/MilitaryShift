@@ -10,6 +10,7 @@ import SwiftUI
 struct SecondView: View {
     @Binding var name: String
     var body: some View {
+        
         NavigationStack {
             ZStack{
                 Image("Sage1")
@@ -27,7 +28,7 @@ struct SecondView: View {
                         
                     }.background(Rectangle().foregroundColor(Color("DarkGreen"))).cornerRadius(13)
                     
-                    NavigationLink(destination:WhatsNext()) {
+                    NavigationLink(destination: WhatNext()) {
                         Text("What's Next?").font(.largeTitle).fontWeight(.light).foregroundColor(Color.white).padding()
                         
                     }.background(Rectangle().foregroundColor(Color("DarkGreen"))).cornerRadius(13)
