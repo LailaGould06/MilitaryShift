@@ -13,7 +13,8 @@ struct ContentView: View {
     var body: some View {
         NavigationStack{
             
-            ZStack{Color("Sage").ignoresSafeArea()
+            ZStack{
+                Image("Sage1")
                 VStack(alignment:.center,spacing:10.0) {
                     Image("MS2")
                         .aspectRatio(contentMode: .fit).cornerRadius(19)

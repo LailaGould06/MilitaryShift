@@ -11,18 +11,24 @@ struct SecondView: View {
     @Binding var name: String
     var body: some View {
         NavigationStack {
-            ZStack{Color("Sage").ignoresSafeArea()
-                VStack(alignment:.center,spacing:10.0) {
-                    Image("MS2").resizable().aspectRatio(contentMode: .fit).padding(/*@START_MENU_TOKEN@*/.horizontal, 102.0/*@END_MENU_TOKEN@*/).cornerRadius(200)
+            ZStack{
+                Image("Sage1")
+                VStack(alignment:.center,spacing:50.0) {
+                   Spacer()
                     Spacer()
+                    Spacer()
+                    Image("MS2").resizable().aspectRatio(contentMode: .fit).padding(/*@START_MENU_TOKEN@*/.horizontal, 102.0/*@END_MENU_TOKEN@*/).cornerRadius(200)
+       
                     Text ("Welcome \(name)!!")
-                    NavigationLink(destination:Branches()) {
+                        .font(.title)
+                    
+                    NavigationLink(destination: Branches()) {
                         Text("Branches").font(.largeTitle).fontWeight(.light).foregroundColor(Color.white).padding()
                         
                     }.background(Rectangle().foregroundColor(Color("DarkGreen"))).cornerRadius(13)
-                    Spacer()
+                    
                     NavigationLink(destination:WhatsNext()) {
-                        Text("What's Next!").font(.title).fontWeight(.light).foregroundColor(Color.white).padding()
+                        Text("What's Next?").font(.largeTitle).fontWeight(.light).foregroundColor(Color.white).padding()
                         
                     }.background(Rectangle().foregroundColor(Color("DarkGreen"))).cornerRadius(13)
                     Spacer()

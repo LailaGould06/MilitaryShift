@@ -9,6 +9,14 @@
 /* Begin PBXBuildFile section */
 		BD2866C52A6722DA0025BA1A /* Branches.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2866C42A6722DA0025BA1A /* Branches.swift */; };
 		BD2866C72A6722F90025BA1A /* WhatsNext.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2866C62A6722F90025BA1A /* WhatsNext.swift */; };
+		BD5394C02A684AF6009C2755 /* BranchesArmy.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5394BF2A684AF6009C2755 /* BranchesArmy.swift */; };
+		BD5394C22A684CAA009C2755 /* BranchesNationalGaurd.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5394C12A684CAA009C2755 /* BranchesNationalGaurd.swift */; };
+		BD5394C42A68580C009C2755 /* Marines.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5394C32A68580C009C2755 /* Marines.swift */; };
+		BD5394C82A685BAF009C2755 /* AirForce.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5394C72A685BAF009C2755 /* AirForce.swift */; };
+		BD5394CA2A685CF7009C2755 /* SpaceForce.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5394C92A685CF7009C2755 /* SpaceForce.swift */; };
+		BD5394CC2A685E38009C2755 /* Navy.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5394CB2A685E38009C2755 /* Navy.swift */; };
+		BD5394CE2A686028009C2755 /* CoastGuard.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5394CD2A686028009C2755 /* CoastGuard.swift */; };
+		BD5394D02A68664A009C2755 /* UnknownJobs.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5394CF2A68664A009C2755 /* UnknownJobs.swift */; };
 		BDAA78DF2A65D0320028236E /* MilitaryShiftApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAA78DE2A65D0320028236E /* MilitaryShiftApp.swift */; };
 		BDAA78E12A65D0320028236E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAA78E02A65D0320028236E /* ContentView.swift */; };
 		BDAA78E32A65D0340028236E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDAA78E22A65D0340028236E /* Assets.xcassets */; };
@@ -19,6 +27,14 @@
 /* Begin PBXFileReference section */
 		BD2866C42A6722DA0025BA1A /* Branches.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Branches.swift; sourceTree = "<group>"; };
 		BD2866C62A6722F90025BA1A /* WhatsNext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatsNext.swift; sourceTree = "<group>"; };
+		BD5394BF2A684AF6009C2755 /* BranchesArmy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BranchesArmy.swift; sourceTree = "<group>"; };
+		BD5394C12A684CAA009C2755 /* BranchesNationalGaurd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BranchesNationalGaurd.swift; sourceTree = "<group>"; };
+		BD5394C32A68580C009C2755 /* Marines.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Marines.swift; sourceTree = "<group>"; };
+		BD5394C72A685BAF009C2755 /* AirForce.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirForce.swift; sourceTree = "<group>"; };
+		BD5394C92A685CF7009C2755 /* SpaceForce.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceForce.swift; sourceTree = "<group>"; };
+		BD5394CB2A685E38009C2755 /* Navy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navy.swift; sourceTree = "<group>"; };
+		BD5394CD2A686028009C2755 /* CoastGuard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoastGuard.swift; sourceTree = "<group>"; };
+		BD5394CF2A68664A009C2755 /* UnknownJobs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnknownJobs.swift; sourceTree = "<group>"; };
 		BDAA78DB2A65D0320028236E /* MilitaryShift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MilitaryShift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDAA78DE2A65D0320028236E /* MilitaryShiftApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MilitaryShiftApp.swift; sourceTree = "<group>"; };
 		BDAA78E02A65D0320028236E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -41,9 +57,16 @@
 		BDAA78D22A65D0320028236E = {
 			isa = PBXGroup;
 			children = (
+				BD5394CF2A68664A009C2755 /* UnknownJobs.swift */,
 				BDBAD3C32A65DE960029BD57 /* SecondView.swift */,
+				BD5394CB2A685E38009C2755 /* Navy.swift */,
+				BD5394C92A685CF7009C2755 /* SpaceForce.swift */,
+				BD5394C32A68580C009C2755 /* Marines.swift */,
 				BD2866C62A6722F90025BA1A /* WhatsNext.swift */,
 				BD2866C42A6722DA0025BA1A /* Branches.swift */,
+				BD5394CD2A686028009C2755 /* CoastGuard.swift */,
+				BD5394C72A685BAF009C2755 /* AirForce.swift */,
+				BD5394BF2A684AF6009C2755 /* BranchesArmy.swift */,
 				BDAA78DD2A65D0320028236E /* MilitaryShift */,
 				BDAA78DC2A65D0320028236E /* Products */,
 			);
@@ -62,6 +85,7 @@
 			children = (
 				BDAA78DE2A65D0320028236E /* MilitaryShiftApp.swift */,
 				BDAA78E02A65D0320028236E /* ContentView.swift */,
+				BD5394C12A684CAA009C2755 /* BranchesNationalGaurd.swift */,
 				BDAA78E22A65D0340028236E /* Assets.xcassets */,
 				BDAA78E42A65D0340028236E /* Preview Content */,
 			);
@@ -146,11 +170,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD5394CE2A686028009C2755 /* CoastGuard.swift in Sources */,
 				BDBAD3C42A65DE960029BD57 /* SecondView.swift in Sources */,
 				BDAA78E12A65D0320028236E /* ContentView.swift in Sources */,
+				BD5394C02A684AF6009C2755 /* BranchesArmy.swift in Sources */,
+				BD5394C82A685BAF009C2755 /* AirForce.swift in Sources */,
+				BD5394D02A68664A009C2755 /* UnknownJobs.swift in Sources */,
 				BDAA78DF2A65D0320028236E /* MilitaryShiftApp.swift in Sources */,
+				BD5394C22A684CAA009C2755 /* BranchesNationalGaurd.swift in Sources */,
+				BD5394CA2A685CF7009C2755 /* SpaceForce.swift in Sources */,
 				BD2866C72A6722F90025BA1A /* WhatsNext.swift in Sources */,
 				BD2866C52A6722DA0025BA1A /* Branches.swift in Sources */,
+				BD5394C42A68580C009C2755 /* Marines.swift in Sources */,
+				BD5394CC2A685E38009C2755 /* Navy.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
