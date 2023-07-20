@@ -31,7 +31,8 @@ struct WhatNext: View {
                     
                     
                     VStack {
-                        Text("GHFEYFNUFYBUJDUGFBHBIGYFBDGSHJHUGUFABUYGBFHGYGYBFYGYGFHUHFYHGRygyfgegUGugefVYGYGUBGHHBUOBGOurgrugtftfqwfydyvhdfgfglghihraugbjghJUGRBJBJUGGUNRhgugjtbujGURBJGUYjghgfjaghgfvbyhfHikhyfughecfgdjhi")
+                        Text("After serving in the military, many soldiers struggle to reclaim their place in society. We provide suggestions and ideas on where they might utilize the new skills they have acquired through their service.")
+                            .font(.headline)
                             .foregroundColor(Color.black)
                     }.padding().background(Rectangle()).foregroundColor(.white).cornerRadius(15).shadow(radius: 15)
                     
@@ -51,7 +52,7 @@ struct WhatNext: View {
                             .padding(.horizontal, 85.0)
                     }.background(Rectangle().foregroundColor(Color("DarkGreen"))).cornerRadius(30.0)
                     
-                    NavigationLink(destination: collegeView()) {
+                    NavigationLink(destination: Stories()) {
                         Text("Stories")
                             .fontWeight(.bold)
                             .foregroundColor(Color.white)

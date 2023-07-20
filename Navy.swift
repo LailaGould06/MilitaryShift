@@ -21,18 +21,23 @@ struct Navy: View {
                 Image("no-bg-dot-com-6")
                     .resizable(capInsets: EdgeInsets(top: 0.0, leading: 0.0, bottom: 0.0, trailing: 0.0), resizingMode: .stretch)
                     .aspectRatio(contentMode: .fit)
-                    .padding(.horizontal, 100.0)
+                    .padding(.horizontal, 120.0)
                     .padding(.vertical, 15.0)
                     .background(Circle().foregroundColor(Color("DarkGreen")).cornerRadius(30.0))
                 Text("The Navy works on, above, and below the water. It one of our most major deterrents to attacks in the world. The main purpose of the U.S. Navy is to train and equip Naval Forces to win wars and maintain freedom of the seas.")
                     .foregroundColor(Color.white)
-                    .padding(.horizontal, 10.0)
+                    .padding(.horizontal, 130.0)
                     .padding(.vertical, 10.0)
-                    .background(Rectangle().foregroundColor(Color("DarkGreen"))
+                    .background(Rectangle().foregroundColor(Color("DarkGreen")) .frame(width: 350.0, height:150.0)
                         .cornerRadius(15.0))
                     .shadow(radius: 15)
             }
             
             }
+    }
+}
+struct NavyView_Previews: PreviewProvider {
+    static var previews: some View {
+        Navy()
     }
 }

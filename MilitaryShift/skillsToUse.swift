@@ -9,10 +9,11 @@ import SwiftUI
 
 struct skillsToUse: View {
     var body: some View {
+        
         ZStack {
             Image("Sage1")
             
-            VStack (spacing: 35.0){
+            VStack (spacing: 10.0){
                 Text("Skills To Use")
                     .font(.title)
                     .fontWeight(.bold)
@@ -29,77 +30,82 @@ struct skillsToUse: View {
                 VStack (spacing:25.0) {
                     HStack(spacing:35.0) {
                         
-                        Text("JOB")
+                        Text("Communication")
                             .fontWeight(.bold)
                             .foregroundColor(Color.black)
 
-                        Text("Skills: hi ggfbufuy hhfuhu hhu ehwuj hhheii8ds huhf huhdff")
+                        Text("Advertising, Marketing, Public relations, Journalism, or Media")
                             .foregroundColor(Color.black)
                     }
                     
                     HStack(spacing:35.0) {
                         
-                        Text("JOB")
+                        Text("Leadership")
                             .fontWeight(.bold)
                             .foregroundColor(Color.black)
 
-                        Text("Skills: hi ggfbufuy hhfuhu hhu ehwuj hhheii8ds huhf huhdff")
+                        Text("Consumers, or a job where you can act as “boss” or be in charge of others.")
                             .foregroundColor(Color.black)
                     }
                     
                     HStack(spacing:35.0) {
                         
-                        Text("JOB")
+                        Text("Teamwork")
                             .fontWeight(.bold)
                             .foregroundColor(Color.black)
 
-                        Text("Skills: hi ggfbufuy hhfuhu hhu ehwuj hhheii8ds huhf huhdff")
+                        Text("Sales, PR, Politics, and Law")
                             .foregroundColor(Color.black)
                     }
                     
                     HStack(spacing:35.0) {
                         
-                        Text("JOB")
+                        Text("Adaptability")
                             .fontWeight(.bold)
                             .foregroundColor(Color.black)
 
-                        Text("Skills: hi ggfbufuy hhfuhu hhu ehwuj hhheii8ds huhf huhdff")
+                        Text("Marketing, Advertising, Event Management, Public Relations Positions")
                             .foregroundColor(Color.black)
                     }
                     
                     HStack(spacing:35.0) {
                         
-                        Text("JOB")
+                        Text("Flexibility")
                             .fontWeight(.bold)
                             .foregroundColor(Color.black)
 
-                        Text("Skills: hi ggfbufuy hhfuhu hhu ehwuj hhheii8ds huhf huhdff")
+                        Text("Manager, Graphic Designer, Teachers, and Sales")
                             .foregroundColor(Color.black)
                     }
                     
                     HStack(spacing:35.0) {
                         
-                        Text("JOB")
+                        Text("Organization")
                             .fontWeight(.bold)
                             .foregroundColor(Color.black)
 
-                        Text("Skills: hi ggfbufuy hhfuhu hhu ehwuj hhheii8ds huhf huhdff")
+                        Text(" Wedding planner, Sponsorship manager, and Account manager")
                             .foregroundColor(Color.black)
                     }
                     
                     HStack(spacing:35.0) {
                         
-                        Text("JOB")
+                        Text("Problem-solving")
                             .fontWeight(.bold)
                             .foregroundColor(Color.black)
 
-                        Text("Skills: hi ggfbufuy hhfuhu hhu ehwuj hhheii8ds huhf huhdff")
+                        Text("Air Traffic Controller, Computer Programmer, Automotive Technician, and Police Officer")
                             .foregroundColor(Color.black)
                     }
-                    
+                                        
                 }.padding().background(Rectangle()).foregroundColor(.white).cornerRadius(15).shadow(radius: 15)
             }.padding(100)
+            
         }
     }
 }
-
+struct skillsToUse_Previews: PreviewProvider {
+    static var previews: some View {
+        skillsToUse()
+    }
+}

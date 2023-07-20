@@ -20,6 +20,7 @@
 		BD6947822A68686A00E8704C /* WhatNext.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6947812A68686A00E8704C /* WhatNext.swift */; };
 		BD6947842A6868AE00E8704C /* skillsToUse.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6947832A6868AE00E8704C /* skillsToUse.swift */; };
 		BD6947862A68690A00E8704C /* collegeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6947852A68690A00E8704C /* collegeView.swift */; };
+		BD8209F02A698AC200C2AD36 /* Stories.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8209EF2A698AC200C2AD36 /* Stories.swift */; };
 		BDAA78DF2A65D0320028236E /* MilitaryShiftApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAA78DE2A65D0320028236E /* MilitaryShiftApp.swift */; };
 		BDAA78E12A65D0320028236E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAA78E02A65D0320028236E /* ContentView.swift */; };
 		BDAA78E32A65D0340028236E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDAA78E22A65D0340028236E /* Assets.xcassets */; };
@@ -41,6 +42,7 @@
 		BD6947812A68686A00E8704C /* WhatNext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatNext.swift; sourceTree = "<group>"; };
 		BD6947832A6868AE00E8704C /* skillsToUse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = skillsToUse.swift; sourceTree = "<group>"; };
 		BD6947852A68690A00E8704C /* collegeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = collegeView.swift; sourceTree = "<group>"; };
+		BD8209EF2A698AC200C2AD36 /* Stories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stories.swift; sourceTree = "<group>"; };
 		BDAA78DB2A65D0320028236E /* MilitaryShift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MilitaryShift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDAA78DE2A65D0320028236E /* MilitaryShiftApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MilitaryShiftApp.swift; sourceTree = "<group>"; };
 		BDAA78E02A65D0320028236E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -92,6 +94,7 @@
 				BDAA78DE2A65D0320028236E /* MilitaryShiftApp.swift */,
 				BDAA78E02A65D0320028236E /* ContentView.swift */,
 				BD6947812A68686A00E8704C /* WhatNext.swift */,
+				BD8209EF2A698AC200C2AD36 /* Stories.swift */,
 				BD6947852A68690A00E8704C /* collegeView.swift */,
 				BD6947832A6868AE00E8704C /* skillsToUse.swift */,
 				BD5394C12A684CAA009C2755 /* BranchesNationalGaurd.swift */,
@@ -181,6 +184,7 @@
 			files = (
 				BD6947822A68686A00E8704C /* WhatNext.swift in Sources */,
 				BD5394CE2A686028009C2755 /* CoastGuard.swift in Sources */,
+				BD8209F02A698AC200C2AD36 /* Stories.swift in Sources */,
 				BD6947862A68690A00E8704C /* collegeView.swift in Sources */,
 				BDBAD3C42A65DE960029BD57 /* SecondView.swift in Sources */,
 				BDAA78E12A65D0320028236E /* ContentView.swift in Sources */,
