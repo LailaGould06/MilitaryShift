@@ -56,7 +56,7 @@ struct WhatNext: View {
                             .fontWeight(.bold)
                             .foregroundColor(Color.white)
                             .padding(.vertical, 18.0)
-                            .padding(.horizontal, 90.0)
+                            .padding(.horizontal, 92.0)
                     }.background(Rectangle().foregroundColor(Color("DarkGreen"))).cornerRadius(30.0)
                     
                     

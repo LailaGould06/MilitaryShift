@@ -24,7 +24,7 @@ struct ContentView: View {
                             .font(.title2)
                             .fontWeight(.bold)
                             .foregroundColor(Color.black)
-                        TextField("Enter name here...", text: $name).multilineTextAlignment(.center).font(.title).border(Color.gray, width: 1)
+                        TextField("Enter name here...", text: $name).multilineTextAlignment(.center).font(.title).border(Color.black, width: 1)
                         
                     }.padding(.horizontal, 85)
 
@@ -37,10 +37,10 @@ struct ContentView: View {
                         Text("Enter")
                             .font(.title2)
                             .fontWeight(.bold)
-                            .foregroundColor(Color.white).padding(.horizontal, 50)
-                            .padding(.vertical, 15)
+                            .foregroundColor(Color.white).padding(.horizontal, 92.0)
+                            .padding(.vertical, 18.0)
                         
-                    }.background(Rectangle().foregroundColor(Color("greenB")).cornerRadius(13))
+                    }.background(Rectangle().foregroundColor(Color("DarkGreen")).cornerRadius(30.0))
                     
                 }.padding()
             

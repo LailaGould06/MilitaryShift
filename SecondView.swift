@@ -18,20 +18,24 @@ struct SecondView: View {
                    Spacer()
                     Spacer()
                     Spacer()
-                    Image("MS2").resizable().aspectRatio(contentMode: .fit).padding(/*@START_MENU_TOKEN@*/.horizontal, 102.0/*@END_MENU_TOKEN@*/).cornerRadius(200)
+                    Image("MS2")
+                        .aspectRatio(contentMode: .fit).cornerRadius(19)
        
                     Text ("Welcome \(name)!!")
-                        .font(.title)
+                        .font(.largeTitle)
+                        .fontWeight(.bold)
                     
                     NavigationLink(destination: Branches()) {
-                        Text("Branches").font(.largeTitle).fontWeight(.light).foregroundColor(Color.white).padding()
+                        Text("Branches").font(.largeTitle).fontWeight(.medium).foregroundColor(Color.white).padding(.horizontal, 60.0).padding(.vertical, 18.0)
                         
-                    }.background(Rectangle().foregroundColor(Color("DarkGreen"))).cornerRadius(13)
+                    }.background(Rectangle().foregroundColor(Color("DarkGreen"))).cornerRadius(35.0)
+                       
                     
                     NavigationLink(destination: WhatNext()) {
-                        Text("What's Next?").font(.largeTitle).fontWeight(.light).foregroundColor(Color.white).padding()
+                        Text("What's Next?").font(.largeTitle).fontWeight(.medium).foregroundColor(Color.white).padding(.horizontal, 35.0).padding(.vertical, 18.0)
+
                         
-                    }.background(Rectangle().foregroundColor(Color("DarkGreen"))).cornerRadius(13)
+                    }.background(Rectangle().foregroundColor(Color("DarkGreen"))).cornerRadius(35.0)
                     Spacer()
                     Spacer()
                     Spacer()

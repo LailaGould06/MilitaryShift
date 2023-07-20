@@ -17,8 +17,13 @@ struct Branches: View {
                       
                         Text("Branches")
                             .font(/*@START_MENU_TOKEN@*/.largeTitle/*@END_MENU_TOKEN@*/)
+                            .foregroundColor(Color.white)
                             .multilineTextAlignment(.center)
                             .lineLimit(nil)
+                            .padding(30.0)
+                            .background(Rectangle().foregroundColor(Color("DarkGreen"))
+                                .cornerRadius(30.0))
+                        
                     }
                     HStack(spacing: 50.0) {
                         VStack(spacing: 50.0) {
@@ -50,12 +55,7 @@ struct Branches: View {
                                     .padding()
                             } .background(Rectangle().foregroundColor(Color("DarkGreen")).cornerRadius(30.0))
                        
-                            NavigationLink(destination: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Destination@*/Text("Destination")/*@END_MENU_TOKEN@*/) {
-                                Text("Stories")
-                                    .font(.title3)
-                                    .foregroundColor(Color.white)
-                                    .padding(30.0)
-                            } .background(Rectangle().foregroundColor(Color("DarkGreen")).cornerRadius(30.0))
+                           
                           
                         }
                         VStack(spacing: 50.0) {
@@ -100,4 +100,12 @@ struct Branches: View {
     
     
     }
+
+struct Branches_Previews: PreviewProvider {
+    static var previews: some View {
+        Branches()
+    }
+}
+
+
 
