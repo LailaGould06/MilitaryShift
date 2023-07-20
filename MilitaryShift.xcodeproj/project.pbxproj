@@ -26,6 +26,7 @@
 		BDAA78E32A65D0340028236E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDAA78E22A65D0340028236E /* Assets.xcassets */; };
 		BDAA78E62A65D0340028236E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDAA78E52A65D0340028236E /* Preview Assets.xcassets */; };
 		BDBAD3C42A65DE960029BD57 /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBAD3C32A65DE960029BD57 /* SecondView.swift */; };
+		BDE523162A69B02E00FA943D /* Chat.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE523152A69B02E00FA943D /* Chat.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +50,7 @@
 		BDAA78E22A65D0340028236E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BDAA78E52A65D0340028236E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BDBAD3C32A65DE960029BD57 /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
+		BDE523152A69B02E00FA943D /* Chat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chat.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 			children = (
 				BD5394CF2A68664A009C2755 /* UnknownJobs.swift */,
 				BDBAD3C32A65DE960029BD57 /* SecondView.swift */,
+				BDE523152A69B02E00FA943D /* Chat.swift */,
 				BD5394CB2A685E38009C2755 /* Navy.swift */,
 				BD5394C92A685CF7009C2755 /* SpaceForce.swift */,
 				BD5394C32A68580C009C2755 /* Marines.swift */,
@@ -195,6 +198,7 @@
 				BDAA78DF2A65D0320028236E /* MilitaryShiftApp.swift in Sources */,
 				BD5394C22A684CAA009C2755 /* BranchesNationalGaurd.swift in Sources */,
 				BD5394CA2A685CF7009C2755 /* SpaceForce.swift in Sources */,
+				BDE523162A69B02E00FA943D /* Chat.swift in Sources */,
 				BD2866C72A6722F90025BA1A /* WhatsNext.swift in Sources */,
 				BD2866C52A6722DA0025BA1A /* Branches.swift in Sources */,
 				BD5394C42A68580C009C2755 /* Marines.swift in Sources */,

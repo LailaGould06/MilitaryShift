@@ -13,9 +13,11 @@ struct SecondView: View {
         
         NavigationStack {
             ZStack{
-                Image("Sage1")
-                VStack(alignment:.center,spacing:50.0) {
-                   Spacer()
+                
+             Image("Sage1")
+                
+                VStack(alignment:.center,spacing:30.0) {
+    
                     Spacer()
                     Spacer()
                     Image("MS2")
@@ -24,7 +26,7 @@ struct SecondView: View {
                     Text ("Welcome \(name)!!")
                         .font(.largeTitle)
                         .fontWeight(.bold)
-                    
+
                     NavigationLink(destination: Branches()) {
                         Text("Branches").font(.largeTitle).fontWeight(.medium).foregroundColor(Color.white).padding(.horizontal, 60.0).padding(.vertical, 18.0)
                         
@@ -36,9 +38,13 @@ struct SecondView: View {
 
                         
                     }.background(Rectangle().foregroundColor(Color("DarkGreen"))).cornerRadius(35.0)
+                    NavigationLink(destination: Chat()) {
+                        Text("Chat").font(.largeTitle).fontWeight(.medium).foregroundColor(Color.white).padding(.horizontal, 60.0).padding(.vertical, 18.0)
+                        
+                    }.background(Rectangle().foregroundColor(Color("DarkGreen"))).cornerRadius(35.0)
                     Spacer()
                     Spacer()
-                    Spacer()
+                 
                 }
             }
         }
