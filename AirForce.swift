@@ -18,21 +18,25 @@ struct AirForce: View {
                     .padding(.horizontal, 50.0)
                     .padding(.vertical, 15.0)
                     .background(Rectangle().foregroundColor(Color("DarkGreen")).cornerRadius(15.0))
-                Image("no-bg-dot-com-4")
-                    .resizable(capInsets: EdgeInsets(top: 0.0, leading: 0.0, bottom: 0.0, trailing: 0.0), resizingMode: .stretch)
-                    .aspectRatio(contentMode: .fit)
-                    .padding(.horizontal, 100.0)
-                    .padding(.vertical, 15.0)
-                    .background(Circle().foregroundColor(Color("DarkGreen")).cornerRadius(30.0))
+                Image("newAforce")
+                                    .resizable()
+                                    .aspectRatio(contentMode: .fit)
+                                    .padding(.horizontal, 130.0)
+                                    .padding(.vertical, 15.0)
+                                    .background(Circle().foregroundColor(Color("DarkGreen")))
                 Text("The Air Force is consisted of many  pilots and planes that brings a quick, flexible and lethal air branch. The Air Force can get anywhere in the world within hours. The Air Force has many functions, like to have air superiority over other countries, to have fast global mobility, to have intelligence, and to have command.")
                     .foregroundColor(Color.white)
-                    .padding(.horizontal, 10.0)
+                    .padding(.horizontal, 130.0)
                     .padding(.vertical, 10.0)
-                    .background(Rectangle().foregroundColor(Color("DarkGreen"))
+                    .background(Rectangle().foregroundColor(Color("DarkGreen")) .frame(width: 350.0, height:200.0)
                         .cornerRadius(15.0))
-                    .shadow(radius: 15)
-            }
+                    .shadow(radius: 15)            }
             
             }
+    }
+}
+struct AirForce_Previews: PreviewProvider {
+    static var previews: some View {
+        AirForce()
     }
 }

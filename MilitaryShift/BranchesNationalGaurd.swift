@@ -21,19 +21,24 @@ struct BranchesNationalGaurd: View {
                 Image("no-bg-dot-com-2")
                     .resizable(capInsets: EdgeInsets(top: 0.0, leading: 0.0, bottom: 0.0, trailing: 0.0), resizingMode: .stretch)
                     .aspectRatio(contentMode: .fit)
-                    .padding(.horizontal, 100.0)
+                    .padding(.horizontal, 120.0)
                     .padding(.vertical, 15.0)
                     .background(Circle().foregroundColor(Color("DarkGreen")).cornerRadius(30.0))
                 Text("The National Guard is very adaptable as it supports combat missions, home emergencies, homeland security and humanitarian emergencies. Unlike some of the other branches, the National Guard helps communities that were hit by natural disasters and helps to rebuild.")
                     .foregroundColor(Color.white)
-                    .padding(.horizontal, 10.0)
+                    .padding(.horizontal, 130.0)
                     .padding(.vertical, 10.0)
-                    .background(Rectangle().foregroundColor(Color("DarkGreen"))
+                    .background(Rectangle().foregroundColor(Color("DarkGreen")) .frame(width: 350.0, height:170.0)
                         .cornerRadius(15.0))
-                    .shadow(radius: 15)
+                    .shadow(radius: 15)   
             }
             
             }
 
+    }
+}
+struct BranchesNationalGaurd_Previews: PreviewProvider {
+    static var previews: some View {
+        BranchesNationalGaurd()
     }
 }
